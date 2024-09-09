@@ -14,7 +14,7 @@ function Item({ name, importance }) {
   );
 }
 
-export default function PackingList(props) {
+function PackingList(props) {
   return (
     <section>
       <h1>Liste d’affaires de Sally Ride</h1>
